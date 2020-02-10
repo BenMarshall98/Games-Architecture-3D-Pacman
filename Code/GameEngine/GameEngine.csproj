@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3AE82EF6-8997-4E89-8D4B-D9402BA7A5FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameEngine</RootNamespace>
+    <AssemblyName>GameEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\Initial_Framework\packages\OpenTK.2.0.0\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArtificialIntelligence\ArtificialIntelligence.cs" />
+    <Compile Include="ArtificialIntelligence\AStarAlgorithm.cs" />
+    <Compile Include="Cameras\Camera.cs" />
+    <Compile Include="Cameras\EntityCamera.cs" />
+    <Compile Include="Cameras\MiniMapCamera.cs" />
+    <Compile Include="Component\ComponentAnimation.cs" />
+    <Compile Include="Component\ComponentArtificalInput.cs" />
+    <Compile Include="Component\ComponentAudio.cs" />
+    <Compile Include="Component\ComponentCollisionCircle.cs" />
+    <Compile Include="Component\ComponentCollisionSquare.cs" />
+    <Compile Include="Component\ComponentDirection.cs" />
+    <Compile Include="Component\ComponentGeometry.cs" />
+    <Compile Include="Component\ComponentInput.cs" />
+    <Compile Include="Component\ComponentPosition.cs" />
+    <Compile Include="Component\ComponentShader.cs" />
+    <Compile Include="Component\ComponentTexture.cs" />
+    <Compile Include="Component\ComponentType.cs" />
+    <Compile Include="Component\ComponentVelocity.cs" />
+    <Compile Include="Component\ICollision.cs" />
+    <Compile Include="Component\IComponent.cs" />
+    <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="Controllers\GamePadController.cs" />
+    <Compile Include="Controllers\KeyboardMouseController.cs" />
+    <Compile Include="Managers\AudioManager.cs" />
+    <Compile Include="Managers\CollisionManager.cs" />
+    <Compile Include="Managers\EntityManager.cs" />
+    <Compile Include="Managers\InputManager.cs" />
+    <Compile Include="Managers\ResourceManager.cs" />
+    <Compile Include="Managers\SceneManager.cs" />
+    <Compile Include="Managers\SystemManager.cs" />
+    <Compile Include="Maps\MapData.cs" />
+    <Compile Include="Objects\Audio.cs" />
+    <Compile Include="Objects\CubeMapTexture.cs" />
+    <Compile Include="Objects\Entity.cs" />
+    <Compile Include="Objects\Geometry.cs" />
+    <Compile Include="Objects\Shader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\CubeMapRender.cs" />
+    <Compile Include="Scenes\GUI.cs" />
+    <Compile Include="Scenes\LevelScene.cs" />
+    <Compile Include="Scenes\MenuScene.cs" />
+    <Compile Include="Scenes\Scene.cs" />
+    <Compile Include="Systems\System.cs" />
+    <Compile Include="Systems\SystemAnimation.cs" />
+    <Compile Include="Systems\SystemArtificialInput.cs" />
+    <Compile Include="Systems\SystemAudio.cs" />
+    <Compile Include="Systems\SystemCollision.cs" />
+    <Compile Include="Systems\SystemInput.cs" />
+    <Compile Include="Systems\SystemPhysics.cs" />
+    <Compile Include="Systems\SystemRender.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

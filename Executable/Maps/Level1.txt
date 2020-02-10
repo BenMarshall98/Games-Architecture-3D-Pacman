@@ -1,0 +1,49 @@
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+w                                               w
+w 1 c c c c c c c c c c c c c c c c c c c c c 2 w
+w                                               w
+w c wwwwwwwwwwwww c wwwwwwwww c wwwwwwwwwwwww c w
+w   w                                       w   w
+w c w c c c c c c c c c c c c c c c c c c c w c w
+w   w                                       w   w
+w c w c wwwwwwwww c w c w c w c wwwwwwwww c w c w
+w           w       w   w   w       w           w
+w c   c c c w c c c w c w c w c c c w c c c   c w
+w           w       w   w   w       w           w
+w c w c wwwwwwwww c w c w c w c wwwwwwwww c w c w
+w   w                                       w   w
+w c w c c c c c c c c c c c c c c c c c c c w c w
+w   w                                       w   w
+w c wwwwwwwwwwwww c wwwwwwwww c wwwwwwwwwwwww c w
+w                                               w
+w c c c c c c c c c c c c c c c c c c c c c c c w
+w                                               w
+w c wwwwwwwww c w c w c w c w c w c wwwwwwwww c w
+w   w               w   w                   w   w
+w c w c c c c c c c w p w c c c c c c c c c w c w
+w   w               w   w                   w   w
+w c w c wwwww c w c w c w c w c w c wwwww c w c w
+w               w       w   w   w               w
+w c c c c c c c w c c c w g w c w c c c c c c c w
+w               w       w   w   w               w
+w c w c wwwwwwwww c w c w c w c wwwwwwwww c w c w
+w                                               w
+w c c c c c c c c c c c c c c c c c c c c c c c w
+w                                               w
+w c wwwwwwwwwwwww c wwwwwwwww c wwwwwwwwwwwww c w
+w   w                                       w   w
+w c w c c c c c c c c c c c c c c c c c c c w c w
+w   w                                       w   w
+w c w c wwwwwwwww c w c w c w c wwwwwwwww c w c w
+w           w       w   w   w       w           w
+w c   c c c w c c c w c w c w c c c w c c c   c w
+w           w       w   w   w       w           w
+w c w c wwwwwwwww c w c w c w c wwwwwwwww c w c w
+w   w                                       w   w
+w c w c c c c c c c c c c c c c c c c c c c w c w
+w   w                                       w   w
+w c wwwwwwwwwwwww c wwwwwwwww c wwwwwwwwwwwww c w
+w                                               w
+w 3 c c c c c c c c c c c c c c c c c c c c c 4 w
+w                                               w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
